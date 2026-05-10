@@ -1,0 +1,78 @@
+* {
+.project-card:hover,
+.skill-card:hover,
+.stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #00f7ff44;
+}
+
+.about-card ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.skill-grid,
+.project-grid,
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.skill-card {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+    color: #00f7ff;
+}
+
+.stat-card {
+    text-align: center;
+}
+
+.stat-card h3 {
+    font-size: 3rem;
+    color: #ff00ff;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    padding: 15px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #7928ca, #ff0080);
+    transition: 0.3s ease;
+}
+
+.contact-links a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #ff00ff;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+
+@media(max-width: 768px) {
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    section {
+        padding: 80px 5%;
+    }
+}
