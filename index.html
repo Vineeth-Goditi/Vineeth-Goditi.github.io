@@ -1,3 +1,7 @@
+<!-- ========================= -->
+<!-- index.html -->
+<!-- ========================= -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +13,13 @@
 
     <title>Vineeth Goditi | GenAI Engineer</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css?v=5">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -23,19 +27,42 @@
 
     <div class="particles"></div>
 
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            VG
+        </div>
+
+        <ul>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- HERO -->
+
     <header class="hero">
 
         <div class="hero-content">
 
             <h1>VINEETH GODITI</h1>
 
-            <h2>
-                GENAI ENGINEER • AI/ML ENGINEER • CLOUD AI ARCHITECT
-            </h2>
+            <h2 id="typing"></h2>
 
             <p>
                 Building enterprise-grade AI systems using LLMs,
-                RAG, Agentic AI workflows, and scalable cloud-native architectures.
+                RAG pipelines, Agentic AI workflows,
+                and scalable cloud-native architectures.
             </p>
 
             <div class="buttons">
@@ -54,30 +81,50 @@
 
     </header>
 
-    <section class="about">
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
 
         <h2>⚡ ABOUT ME</h2>
 
         <div class="about-card">
 
             <p>
-                Passionate GenAI Engineer with expertise in:
+                Passionate GenAI Engineer focused on building
+                futuristic AI systems, enterprise automation platforms,
+                intelligent retrieval architectures,
+                and cloud-native AI infrastructure.
             </p>
 
+            <br>
+
             <ul>
+
                 <li>Generative AI</li>
+
                 <li>RAG Architectures</li>
+
                 <li>Agentic AI</li>
+
                 <li>LangChain</li>
+
                 <li>Cloud-native AI Systems</li>
+
                 <li>MLOps</li>
+
+                <li>Semantic Search</li>
+
+                <li>Enterprise AI Platforms</li>
+
             </ul>
 
         </div>
 
     </section>
 
-    <section class="skills">
+    <!-- SKILLS -->
+
+    <section class="skills" id="skills">
 
         <h2>🚀 TECH STACK</h2>
 
@@ -89,6 +136,10 @@
 
             <div class="skill-card">LlamaIndex</div>
 
+            <div class="skill-card">RAG</div>
+
+            <div class="skill-card">FastAPI</div>
+
             <div class="skill-card">AWS</div>
 
             <div class="skill-card">Azure</div>
@@ -97,11 +148,17 @@
 
             <div class="skill-card">Kubernetes</div>
 
-            <div class="skill-card">FastAPI</div>
+            <div class="skill-card">Terraform</div>
+
+            <div class="skill-card">PyTorch</div>
+
+            <div class="skill-card">TensorFlow</div>
 
         </div>
 
     </section>
+
+    <!-- PROJECTS -->
 
     <section class="projects" id="projects">
 
@@ -114,8 +171,8 @@
                 <h3>Enterprise RAG Platform</h3>
 
                 <p>
-                    Built scalable RAG pipelines using LangChain,
-                    Pinecone, and Azure OpenAI.
+                    Built scalable Retrieval-Augmented Generation systems
+                    using LangChain, Pinecone, and Azure OpenAI.
                 </p>
 
             </div>
@@ -126,7 +183,7 @@
 
                 <p>
                     Designed multi-agent orchestration systems
-                    for enterprise automation.
+                    for intelligent enterprise automation.
                 </p>
 
             </div>
@@ -136,8 +193,8 @@
                 <h3>Cloud-native AI Infrastructure</h3>
 
                 <p>
-                    Engineered AI platforms using AWS,
-                    Kubernetes, Docker, and Terraform.
+                    Engineered distributed AI systems using
+                    AWS, Kubernetes, Docker, and Terraform.
                 </p>
 
             </div>
@@ -146,6 +203,8 @@
 
     </section>
 
+    <!-- STATS -->
+
     <section class="stats">
 
         <h2>📊 SYSTEM METRICS</h2>
@@ -153,28 +212,54 @@
         <div class="stats-grid">
 
             <div class="stat-card">
+
                 <h3>10+</h3>
+
                 <p>Years Experience</p>
+
             </div>
 
             <div class="stat-card">
+
                 <h3>AI</h3>
+
                 <p>Enterprise Systems</p>
+
             </div>
 
             <div class="stat-card">
+
                 <h3>LLM</h3>
+
                 <p>Production Architectures</p>
+
             </div>
 
             <div class="stat-card">
+
                 <h3>∞</h3>
+
                 <p>Innovation Mode</p>
+
             </div>
 
         </div>
 
     </section>
+
+    <!-- GITHUB -->
+
+    <section>
+
+        <h2>📈 GITHUB ACTIVITY</h2>
+
+        <img
+            src="https://github-readme-activity-graph.vercel.app/graph?username=Vineeth-Goditi&theme=tokyo-night&hide_border=true&area=true"
+            width="100%">
+
+    </section>
+
+    <!-- CONTACT -->
 
     <section class="contact" id="contact">
 
@@ -198,13 +283,15 @@
 
     </section>
 
+    <!-- FOOTER -->
+
     <footer>
 
         ⚡ ENGINEERING THE FUTURE WITH AI ⚡
 
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="./script.js?v=5"></script>
 
 </body>
 
