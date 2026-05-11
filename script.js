@@ -32,11 +32,11 @@ const text = [
 
     "GENAI ENGINEER",
 
-    "RAG ARCHITECT",
+    "RAG ARCHITECTURE DESIGNER",
 
     "AI/ML ENGINEER",
 
-    "CLOUD AI ARCHITECT"
+    "CLOUD AI DEVELOPER"
 ];
 
 let count = 0;
